@@ -1,2 +1,2 @@
 #!/bin/bash
-if -u -n
+id -u -n

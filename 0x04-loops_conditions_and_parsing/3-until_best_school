@@ -3,7 +3,7 @@
 
 i="0"
 MAX_VALUE="10"
-until [[ "$i" -gt "$MAX_VALUE" ]]
+until [[ "$i" -ge "$MAX_VALUE" ]]
 do
 	echo Best School
 	i=$((i+1))

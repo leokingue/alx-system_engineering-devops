@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#A script who print "Best School" using a Until loop
+
+i="0"
+MAX_VALUE="10"
+until [[ "$i" -gt "$MAX_VALUE" ]]
+do
+	echo Best School
+	i=$((i+1))
+done

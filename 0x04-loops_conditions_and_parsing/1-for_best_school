@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 #A script who print 10 times "Best School"
-i="0"
 MAX_VALUE="10"
-while [[ "$i" -lt "$MAX_VALUE" ]]
+for ((i=0 ; (($MAX_VALUE - $i)) ; i++))
 do
 	echo Best School
-	i=$((i+1))
 done
 

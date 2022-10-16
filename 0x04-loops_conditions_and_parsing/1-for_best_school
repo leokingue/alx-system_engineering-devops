@@ -4,7 +4,7 @@ i="0"
 MAX_VALUE="10"
 while [[ "$i" -lt "$MAX_VALUE" ]]
 do
-	printf "Best School\n"
+	echo Best School
 	i=$((i+1))
 done
 

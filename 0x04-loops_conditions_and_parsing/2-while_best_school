@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#A script who print "Best School" using while loop
+
+i="0"
+MAX_VALUE="10"
+while [[ "$i" -lt "$MAX_VALUE" ]]
+do
+	echo Best School
+	i=$((i+1))
+done

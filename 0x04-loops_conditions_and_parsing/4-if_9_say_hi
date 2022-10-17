@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 #A script who print "Best School" but it display's "Hi" at the 9th iterations
 
-i="0"
+i="1"
 MAX_VALUE="9"
 while [[ "$i" -lt "$MAX_VALUE" ]]
 do
 	if [[ "$i" -eq 8 ]]
 	then
+		echo Best School
 		echo Hi
 	fi
 	echo Best School

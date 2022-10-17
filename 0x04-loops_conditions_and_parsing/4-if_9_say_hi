@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 #A script who print "Best School" but it display's "Hi" at the 9th iterations
 
 i="0"

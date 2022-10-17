@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 #A script who print to the stdout
 
-i="0"
-MAX_VALUE="10"
+i="1"
+MAX_VALUE="11"
 while [[ "$i" -lt "$MAX_VALUE" ]]
 do
-	if [[ "$i" -eq 3 ]]
+	if [[ "$i" -eq 4 ]]
 	then 
 		echo Bad luck
-	elif [[ "$i" -eq 7 ]]
+	elif [[ "$i" -eq 8 ]]
 	then
 		echo good luck
 	else

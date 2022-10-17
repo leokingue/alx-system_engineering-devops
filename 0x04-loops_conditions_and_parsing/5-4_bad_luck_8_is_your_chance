@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#A script who print to the stdout
+
+i="0"
+MAX_VALUE="10"
+while [[ "$i" -lt "$MAX_VALUE" ]]
+do
+	if [[ "$i" -eq 3 ]]
+	then 
+		echo "Bad luck"
+	elif [[ "$i" -eq 7 ]]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	i=$((i+1))
+done

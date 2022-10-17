@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#A script who display "Best School" but print "Hi"to the 9th iterations
+
+
+i="0"
+MAX_VALUE="9"
+while [[ "$i" -lt "$MAX_VALUE" ]]
+do
+	if [[ "$i" -eq 8 ]]; then echo Hi ; fi
+	echo Best School
+	i=$((i+1))
+done

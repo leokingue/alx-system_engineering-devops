@@ -6,7 +6,7 @@ i="0"
 MAX_VALUE="9"
 while [[ "$i" -lt "$MAX_VALUE" ]]
 do
-	if [[ "$i" -eq 8 ]]; then echo Hi ; fi
-	echo Best School
+	if [[ "$i" -eq 8 ]]; then echo "Hi" ; fi
+	echo "Best School"
 	i=$((i+1))
 done

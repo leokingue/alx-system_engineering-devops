@@ -1,0 +1,6 @@
+#SSH CONFIG
+#
+
+host 58095-web-01
+	IdentityFile ~/.ssh/school
+	PasswordAuthentication no
